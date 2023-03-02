@@ -1,0 +1,33 @@
+.optionsListItem > button {
+  min-width: 84px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border-style: hidden;
+
+  text-transform: capitalize;
+  font-weight: 600; 
+  font-size: 16px;
+
+  transition-duration: 300ms;
+}
+
+.optionsListItem:not(:first-child) {
+  margin-left: 15px;  
+}
+
+.optionsListItem:hover > button {
+  transform: scale(1.2);
+}
+
+.optionsListItem:nth-child(1) > button {
+  background-color: rgb(142, 195, 141);
+}
+
+.optionsListItem:nth-child(2)>button {
+  background-color: rgb(141, 194, 195);
+}
+
+.optionsListItem:nth-child(3)>button {
+  background-color: rgb(195, 141, 141);
+}
+

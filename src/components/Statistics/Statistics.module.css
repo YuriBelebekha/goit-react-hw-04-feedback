@@ -1,0 +1,41 @@
+.optionStatItem {
+  display: flex;
+  justify-content: center;
+  min-width: 72px;
+  padding: 5px 10px;
+
+  border-radius: 5px;
+  border-style: hidden;
+
+  font-weight: 600;  
+}
+
+.optionStatItem:not(:first-child) {
+  margin-left: 10px;
+}
+
+.optionStatItem:nth-child(1) {
+  border: 2px solid rgb(142, 195, 141);
+}
+
+.optionStatItem:nth-child(2) {
+  border: 2px solid rgb(141, 194, 195);
+}
+
+.optionStatItem:nth-child(3) {
+  border: 2px solid rgb(195, 141, 141);
+}
+
+.optionStatItem:nth-child(4) {
+  width: 282px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 0;
+  border: 2px solid rgb(190, 161, 68);
+}
+
+.optionStatItem:nth-child(5) {
+  width: 282px;  
+  margin-left: 0;
+  border: 2px solid rgb(142, 195, 141);
+}
